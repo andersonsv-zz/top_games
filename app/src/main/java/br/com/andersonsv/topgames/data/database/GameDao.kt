@@ -13,7 +13,7 @@ import br.com.andersonsv.topgames.domain.entity.Game
 @Dao
 interface GameDao {
 
-    @Query("SELECT id, viewers, channels FROM games ")
+    @Query("SELECT *  FROM games")
     fun getDataSourcefactory(): DataSource.Factory<Int, Game>
 
     @Query("SELECT * FROM games WHERE id= :id")
