@@ -4,7 +4,7 @@ import android.arch.persistence.room.Database
 import android.arch.persistence.room.Room
 import android.arch.persistence.room.RoomDatabase
 import android.content.Context
-import br.com.andersonsv.topgames.data.network.GameData
+import br.com.andersonsv.topgames.data.GameData
 
 
 @Database(

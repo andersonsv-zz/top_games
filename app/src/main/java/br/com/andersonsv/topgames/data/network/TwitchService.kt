@@ -1,5 +1,6 @@
 package br.com.andersonsv.topgames.data.network
 
+import br.com.andersonsv.topgames.data.GameData
 import com.google.gson.GsonBuilder
 import okhttp3.Interceptor
 import okhttp3.OkHttpClient

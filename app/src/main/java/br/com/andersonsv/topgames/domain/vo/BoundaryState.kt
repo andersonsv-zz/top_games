@@ -9,19 +9,19 @@ enum class Direction {
 
 data class BoundaryState(val direction: Direction) {
     companion object {
-        fun <T> zeroItemsLoaded(): BoundaryState {
+        fun  zeroItemsLoaded(): BoundaryState {
             return BoundaryState(
                 Direction.NONE
             )
         }
 
-        fun <T> itemLoadedAtTop(): BoundaryState {
+        fun itemLoadedAtTop(): BoundaryState {
             return BoundaryState(
                 Direction.TOP
             )
         }
 
-        fun <T> itemLoadedAtBottom(): BoundaryState {
+        fun itemLoadedAtBottom(): BoundaryState {
             return BoundaryState(
                 Direction.BOTTOM
             )
